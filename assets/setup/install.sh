@@ -130,6 +130,7 @@ ln -s /home/vpopmail /var/lib/vpopmail
 cd /usr/src
 git clone https://github.com/bruceg/ezmlm-idx.git
 cd ezmlm-idx
+git checkout tags/7.2.2
 bash tools/makemake
 make clean
 make; make man
