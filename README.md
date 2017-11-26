@@ -35,7 +35,7 @@ I'm not planning on maintaining an docker image, but I wanted to give this to th
 So you'll have to build it yourself, no worries, it's all automated
 
 ```bash
-git clone https://github.com/Maescool/docker-qmail
+git clone https://github.com/hOPFEN1/docker-qmail
 cd docker-qmail
 docker build -t qmail .
 ```
